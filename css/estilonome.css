@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Tulpen One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/tulpenone/v25/dFa6ZfeC474skLgesc0Cajo6_Q.woff2) 
+    format('woff2');
+  }
+  :root{
+    --Tulpen: 'Tulpen One', sans-serif;
+  }
+  header{
+    background-image: linear-gradient(to left, #ebddcc, #F20505,#ebddcc);
+    text-align: center;
+    display: block;
+    width: 100%;
+    position:sticky;
+    top: 0;
+  }
+nav a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    text-align: left;
+    padding: 10px;
+    color: #ebddcc;
+    margin: 0px;
+}
+nav a:hover{
+    text-decoration: overline;
+    color: whitesmoke;
+}
+body{    
+    background-color: #ebddcc;
+}
+main{
+    display: block;
+    margin: auto;
+    padding: 0px 20px 20px 20px;
+    max-width: 1000px;
+}
+h1{
+    font-family: var(--Tulpen), sans-serif;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 1px 2px 1px #9B0303;
+    padding-top: 15px;
+    margin: 0px;
+}
+strong{
+    font-size: 28px;
+    font-family: var(--Tulpen), sans-serif;
+    font-weight: bold;
+    text-decoration: underline;    
+    text-shadow: 0.5px 0.5px 1px black;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 28px;
+    font-size: 16px;
+    text-shadow: 0.5px 0.5px 1px black;
+    text-indent: 20px;
+    text-align: justify;
+
+}
+img{
+    display: block;
+    padding-top: 10px;
+    margin: auto;
+    width: 100%;
+}
+div{
+    border-radius: 5px;
+    background-color: #9b030333;
+    display: block;
+    height: 400px;
+}
+iframe{
+    display: block;
+    margin: auto;
+    padding: 45px 45px 0px 45px;
+    width: 80%;
+}
+footer a{
+    display: block;
+    position: relative;
+    background-color: #020F59;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    color: whitesmoke;
+    padding: 3px;
+}
+footer a::after{
+    content: "\1F4F7";
+}
+a {
+    text-decoration: none;
+    color: #044BD9;
+
+}
+a:hover{
+    text-decoration: underline;
+    color: #044BD9;
+}

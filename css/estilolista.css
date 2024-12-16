@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Tulpen One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/tulpenone/v25/dFa6ZfeC474skLgesc0Cajo6_Q.woff2) 
+    format('woff2');
+}
+    :root{
+        --Tulpen:'Tulpen One'
+    }
+
+header{
+    background-image: linear-gradient(to left, #ebddcc, #F20505,#ebddcc);
+    text-align: center;
+    display: block;
+    width: 100%;
+    position:sticky;
+    top: 0;
+}
+body{
+    background-color: #ebddcc;
+}
+main{
+    display: block;
+    margin: auto;
+    padding: 0px 20px 20px 20px;
+    max-width: 1000px;
+}
+h1{
+    font-family: var(--Tulpen), sans-serif;
+    font-size: 80px;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 0.2px 0.5px 0.3px #9B0303;
+    padding: 15px 0px 0px 0px;
+    margin: 0px;
+}
+h2{
+    text-shadow: 0.2px 0.5px 1px #000;
+    color: #020F59;
+}
+ol{
+    display: block;
+    background-color: whitesmoke;
+    column-count: 2;
+    line-height: 40px;
+    font-family: var(--Tulpen);
+    font-size: 32px;
+    border-radius: 5px;
+    box-shadow: 0.1px 0.1px 2px #020f5970;
+}
+/*
+#F20505 vermelho
+#9B0303 bonina
+#020F59 azul marinho
+#044BD9 azul
+#ebddcc bege
+*/
+a {
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    transition: 0.5s;
+    line-height: 25px;
+    font-size: 36px;
+    text-decoration: underline;
+    color: #044BD9;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px 0px 10px 0px;
+}
+footer a{
+    display: block;
+    position: relative;
+    background-color: #020F59;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    color: whitesmoke;
+    padding: 3px;
+}
+footer a:hover{
+    font-size: 14.1px;
+}
+footer a::after{
+    content: "\1F4F7";
+}
